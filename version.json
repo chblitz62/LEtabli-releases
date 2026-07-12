@@ -1,11 +1,12 @@
 {
-  "version": "1.5.1",
-  "date": "2026-06-10",
+  "version": "1.5.2",
+  "date": "2026-07-12",
   "changelog": [
-    "Correctif : le téléchargement de la mise à jour AppImage échouait (URL cassée par Path) — auto-update désormais fonctionnel",
-    "Onglet Prix : barres de défilement horizontales sur les 3 panneaux (gauche, centre, droite)",
-    "Onglet Prix : bulle d'aide au survol des lignes (description complète, collection, fournisseur, profil, prix/ml)",
-    "Robustesse base de données : migrations atomiques (SAVEPOINT, rollback complet en cas d'échec)"
+    "Import tarif fournisseur : les prix appliqués sont désormais réellement pris en compte (écrits en base de données) et la réinitialisation des tarifs fonctionne",
+    "Import tarif fournisseur : les codes absents du catalogue sont signalés au lieu d'être ignorés silencieusement",
+    "Import de catalogue : détection automatique de la colonne prix quand les en-têtes du fichier ne sont pas explicites",
+    "Les ré-imports de catalogue préservent les surcharges de prix fournisseur",
+    "Retrait de Ressources.xls : les catalogues sont gérés en base de données et mis à jour via l'import ODS/Excel"
   ],
   "urls": {
     "linux_appimage": "https://github.com/chblitz62/LEtabli-releases/releases/latest/download/LEtabli_linux_x86_64.AppImage",
