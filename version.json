@@ -1,6 +1,6 @@
 {
   "version": "1.5.3",
-  "date": "2026-08-07",
+  "date": "2026-08-11",
   "changelog": [
     "Devis et bons de commande au nouveau style « fiche », fidèle aux modèles papier de l'atelier : sujet et valeur déclarée, dimensions du paquet, baguettes, verre, technique, prix TTC",
     "Bon de commande : tableau Prix total / Acompte versé / Reste à régler, autorisation d'exposition en vitrine et signature client",
