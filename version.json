@@ -1,16 +1,22 @@
 {
-  "version": "1.5.3",
+  "version": "1.6.0",
   "date": "2026-08-11",
   "changelog": [
-    "Devis et bons de commande au nouveau style « fiche », fidèle aux modèles papier de l'atelier : sujet et valeur déclarée, dimensions du paquet, baguettes, verre, technique, prix TTC",
-    "Bon de commande : tableau Prix total / Acompte versé / Reste à régler, autorisation d'exposition en vitrine et signature client",
-    "Mentions du modèle : acompte 35 % non remboursable, délai de réalisation, frais de garde 5 %, droit de rétractation (article L221-28)",
-    "L'ancien style de devis (tableau détaillé HT/TVA/TTC) reste disponible via Personnalisation du modèle PDF",
-    "Affichage correct des caractères € et œ dans les documents PDF"
+    "Arrondi commercial du devis : saisissez le TTC rond de votre choix (ou bouton « TTC rond 5 € ») — TVA et HT recalculés, écart affiché et mentionné sur le PDF",
+    "Taux de chutes par catégorie (verre, carton, contrecollé, baguettes) dans les marges simplifiées : la perte matière se règle séparément de la marge",
+    "Remise en % ou en € au choix ; sous-total, remise et port désormais visibles sur les devis PDF et exports Excel",
+    "Contrecollé facturé au prorata de la surface de plaque (un 40×50 ne coûte plus la plaque 80×120 entière), y compris via les montages",
+    "Corrections de calcul : rebut Nielsen enfin appliqué, prix manquants au catalogue bloqués (plus de totaux « nan »), dimensions des baguettes Euro rechargées (calcul VBA actif), déduction du stock opérationnelle",
+    "Catalogues : création/modification/suppression directe des articles, unités explicites (ml, m², plaque, pièce), import du classeur interne « ResMtg » avec renommage des références",
+    "Import fournisseur : comparaison des prix courants réparée, accessoires importés désormais visibles, « Mémoriser ce prix » du devis écrit réellement le tarif",
+    "L'accessoire alu n'est plus ajouté automatiquement : une suggestion propose de l'ajouter en un clic",
+    "Correction : un client créé depuis l'écran devis est maintenant bien rattaché au devis",
+    "Et pour la petite histoire : chaque version encadre désormais une œuvre — la 1.6.0 s'appelle « Impression, soleil levant »"
   ],
   "urls": {
     "linux_appimage": "https://github.com/chblitz62/LEtabli-releases/releases/latest/download/LEtabli_linux_x86_64.AppImage",
     "windows": "https://github.com/chblitz62/LEtabli-releases/releases/latest/download/LEtabli_windows.zip",
     "mac": "https://github.com/chblitz62/LEtabli-releases/releases/latest/download/LEtabli_mac.zip"
-  }
+  },
+  "oeuvre": "Impression, soleil levant (Claude Monet, 1872)"
 }
