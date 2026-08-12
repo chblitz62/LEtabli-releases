@@ -1,22 +1,24 @@
 {
-  "version": "1.6.0",
-  "date": "2026-08-11",
+  "version": "1.7.0",
+  "date": "2026-08-12",
   "changelog": [
-    "Arrondi commercial du devis : saisissez le TTC rond de votre choix (ou bouton « TTC rond 5 € ») — TVA et HT recalculés, écart affiché et mentionné sur le PDF",
-    "Taux de chutes par catégorie (verre, carton, contrecollé, baguettes) dans les marges simplifiées : la perte matière se règle séparément de la marge",
-    "Remise en % ou en € au choix ; sous-total, remise et port désormais visibles sur les devis PDF et exports Excel",
-    "Contrecollé facturé au prorata de la surface de plaque (un 40×50 ne coûte plus la plaque 80×120 entière), y compris via les montages",
-    "Corrections de calcul : rebut Nielsen enfin appliqué, prix manquants au catalogue bloqués (plus de totaux « nan »), dimensions des baguettes Euro rechargées (calcul VBA actif), déduction du stock opérationnelle",
-    "Catalogues : création/modification/suppression directe des articles, unités explicites (ml, m², plaque, pièce), import du classeur interne « ResMtg » avec renommage des références",
-    "Import fournisseur : comparaison des prix courants réparée, accessoires importés désormais visibles, « Mémoriser ce prix » du devis écrit réellement le tarif",
-    "L'accessoire alu n'est plus ajouté automatiquement : une suggestion propose de l'ajouter en un clic",
-    "Correction : un client créé depuis l'écran devis est maintenant bien rattaché au devis",
-    "Et pour la petite histoire : chaque version encadre désormais une œuvre — la 1.6.0 s'appelle « Impression, soleil levant »"
+    "Changer de montage remplace désormais les fournitures et temps du montage précédent — plus besoin de quitter le devis et de tout ressaisir quand on change d'avis ; les lignes ajoutées à la main sont préservées",
+    "Tarif à la barre entière : pour les grands cadres, le calcul retient automatiquement le moins cher entre précoupé au mètre et barres entières",
+    "Mode urgence : majoration express en une case (+25 % par défaut, réglable), rappel automatique quand le délai est court, ligne dédiée sur le PDF",
+    "Dates du workflow tracées automatiquement : acceptation du client, prise en charge atelier et livraison sont horodatées pour suivre les délais",
+    "Synchronisation automatique des tarifs au démarrage dès que le fichier de tarifs a été mis à jour",
+    "Grand ménage de lisibilité : colonnes Prix et Total du devis toujours visibles, panneaux redimensionnables à la souris (position mémorisée), total TTC épinglé en permanence, contrastes du thème clair corrigés partout",
+    "Panneau Totaux réorganisé en sections repliables (Coûts, Ajustements, Arrhes & temps) ; les options rares (frais fournisseur, urgence, TVA sur marge) se rangent derrière « Plus d'options » et réapparaissent dès qu'elles servent",
+    "Nouveau réglage « Taille du texte » dans Paramètres → Général : de Compact (90 %) à Large (130 %), appliqué immédiatement à toute l'application",
+    "La bascule thème clair/sombre s'applique désormais en direct, devis ouvert — y compris la liste de sélection des montages qui restait illisible",
+    "Fenêtres Sauvegardes et Configuration email réparées : plus de champs qui se chevauchent, bouton Supprimer des sauvegardes enfin lisible",
+    "Navigation au clavier : la tabulation suit l'ordre de saisie du devis de bout en bout, et le focus est visible sur les boutons et cases à cocher",
+    "Et pour la petite histoire : la 1.7.0 encadre « La Nuit étoilée » de Vincent van Gogh — un thème sombre qui a du souffle"
   ],
   "urls": {
     "linux_appimage": "https://github.com/chblitz62/LEtabli-releases/releases/latest/download/LEtabli_linux_x86_64.AppImage",
     "windows": "https://github.com/chblitz62/LEtabli-releases/releases/latest/download/LEtabli_windows.zip",
     "mac": "https://github.com/chblitz62/LEtabli-releases/releases/latest/download/LEtabli_mac.zip"
   },
-  "oeuvre": "Impression, soleil levant (Claude Monet, 1872)"
+  "oeuvre": "La Nuit étoilée (Vincent van Gogh, 1889)"
 }
