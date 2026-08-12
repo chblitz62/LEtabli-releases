@@ -1,19 +1,11 @@
 {
-  "version": "1.7.0",
+  "version": "1.7.1",
   "date": "2026-08-12",
   "changelog": [
-    "Changer de montage remplace désormais les fournitures et temps du montage précédent — plus besoin de quitter le devis et de tout ressaisir quand on change d'avis ; les lignes ajoutées à la main sont préservées",
-    "Tarif à la barre entière : pour les grands cadres, le calcul retient automatiquement le moins cher entre précoupé au mètre et barres entières",
-    "Mode urgence : majoration express en une case (+25 % par défaut, réglable), rappel automatique quand le délai est court, ligne dédiée sur le PDF",
-    "Dates du workflow tracées automatiquement : acceptation du client, prise en charge atelier et livraison sont horodatées pour suivre les délais",
-    "Synchronisation automatique des tarifs au démarrage dès que le fichier de tarifs a été mis à jour",
-    "Grand ménage de lisibilité : colonnes Prix et Total du devis toujours visibles, panneaux redimensionnables à la souris (position mémorisée), total TTC épinglé en permanence, contrastes du thème clair corrigés partout",
-    "Panneau Totaux réorganisé en sections repliables (Coûts, Ajustements, Arrhes & temps) ; les options rares (frais fournisseur, urgence, TVA sur marge) se rangent derrière « Plus d'options » et réapparaissent dès qu'elles servent",
-    "Nouveau réglage « Taille du texte » dans Paramètres → Général : de Compact (90 %) à Large (130 %), appliqué immédiatement à toute l'application",
-    "La bascule thème clair/sombre s'applique désormais en direct, devis ouvert — y compris la liste de sélection des montages qui restait illisible",
-    "Fenêtres Sauvegardes et Configuration email réparées : plus de champs qui se chevauchent, bouton Supprimer des sauvegardes enfin lisible",
-    "Navigation au clavier : la tabulation suit l'ordre de saisie du devis de bout en bout, et le focus est visible sur les boutons et cases à cocher",
-    "Et pour la petite histoire : la 1.7.0 encadre « La Nuit étoilée » de Vincent van Gogh — un thème sombre qui a du souffle"
+    "Changer de montage met maintenant aussi à jour le TTC rond : l'arrondi commercial est recalculé sur le nouveau total au lieu de rester figé sur le prix du premier montage devisé",
+    "Panneau Totaux du devis : l'ascenseur est redevenu bien visible (poignée contrastée dans les deux thèmes) et la colonne des montants ne peut plus être rognée quand on rétrécit le panneau",
+    "La barre de titre affiche la version et son œuvre — v1.7.1 « La Nuit étoilée » — avec une petite reproduction encadrée en bout de barre (image du domaine public) ; un clic ouvre À propos",
+    "La reproduction de l'œuvre de la version apparaît aussi dans la fenêtre À propos"
   ],
   "urls": {
     "linux_appimage": "https://github.com/chblitz62/LEtabli-releases/releases/latest/download/LEtabli_linux_x86_64.AppImage",
