@@ -1,16 +1,18 @@
 {
-  "version": "1.7.1",
+  "version": "1.8.0",
   "date": "2026-08-12",
   "changelog": [
-    "Changer de montage met maintenant aussi à jour le TTC rond : l'arrondi commercial est recalculé sur le nouveau total au lieu de rester figé sur le prix du premier montage devisé",
-    "Panneau Totaux du devis : l'ascenseur est redevenu bien visible (poignée contrastée dans les deux thèmes) et la colonne des montants ne peut plus être rognée quand on rétrécit le panneau",
-    "La barre de titre affiche la version et son œuvre — v1.7.1 « La Nuit étoilée » — avec une petite reproduction encadrée en bout de barre (image du domaine public) ; un clic ouvre À propos",
-    "La reproduction de l'œuvre de la version apparaît aussi dans la fenêtre À propos"
+    "Assistant après mise à jour : au premier démarrage d'une nouvelle version, L'Établi montre ce qui change dans les calculs, rejoue vos derniers devis pour chiffrer les écarts éventuels, et vous laisse trancher les comportements arbitrables (ex. : le TTC rond suit-il le changement de montage ?)",
+    "Montages : liste triable par nom (A → Z / Z → A), tarifs hérités de OOg grisés dès qu'ils ne collent plus au catalogue (tarif actuel en info-bulle), et bouton « Aligner sur le catalogue » pour les mettre à jour en un clic — montage par montage ou tous ensemble",
+    "Le réglage « Taille du texte » s'applique désormais à toute l'application (tableau de bord, calculatrice, suivi temps, listes, assistants…), plus seulement à l'écran Prix",
+    "Éditeur de montages : les rangées sont réalignées avec les sélecteurs Type/Sous-type",
+    "Nouvelle section « Historique des versions » dans la fenêtre Mises à jour — celle que vous êtes peut-être en train de lire",
+    "Et pour la petite histoire : la 1.8.0 encadre « La Grande Vague de Kanagawa » de Hokusai — pour surfer sur des tarifs enfin à jour"
   ],
   "urls": {
     "linux_appimage": "https://github.com/chblitz62/LEtabli-releases/releases/latest/download/LEtabli_linux_x86_64.AppImage",
     "windows": "https://github.com/chblitz62/LEtabli-releases/releases/latest/download/LEtabli_windows.zip",
     "mac": "https://github.com/chblitz62/LEtabli-releases/releases/latest/download/LEtabli_mac.zip"
   },
-  "oeuvre": "La Nuit étoilée (Vincent van Gogh, 1889)"
+  "oeuvre": "La Grande Vague de Kanagawa (Katsushika Hokusai, vers 1831)"
 }
