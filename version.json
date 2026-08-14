@@ -1,13 +1,13 @@
 {
-  "version": "1.8.0",
-  "date": "2026-08-12",
+  "version": "1.8.1",
+  "date": "2026-08-14",
   "changelog": [
-    "Assistant après mise à jour : au premier démarrage d'une nouvelle version, L'Établi montre ce qui change dans les calculs, rejoue vos derniers devis pour chiffrer les écarts éventuels, et vous laisse trancher les comportements arbitrables (ex. : le TTC rond suit-il le changement de montage ?)",
-    "Montages : liste triable par nom (A → Z / Z → A), tarifs hérités de OOg grisés dès qu'ils ne collent plus au catalogue (tarif actuel en info-bulle), et bouton « Aligner sur le catalogue » pour les mettre à jour en un clic — montage par montage ou tous ensemble",
-    "Le réglage « Taille du texte » s'applique désormais à toute l'application (tableau de bord, calculatrice, suivi temps, listes, assistants…), plus seulement à l'écran Prix",
-    "Éditeur de montages : les rangées sont réalignées avec les sélecteurs Type/Sous-type",
-    "Nouvelle section « Historique des versions » dans la fenêtre Mises à jour — celle que vous êtes peut-être en train de lire",
-    "Et pour la petite histoire : la 1.8.0 encadre « La Grande Vague de Kanagawa » de Hokusai — pour surfer sur des tarifs enfin à jour"
+    "Devis : le champ Livraison ouvre un petit calendrier au clic — la saisie au clavier reste bien sûr possible",
+    "La fiche atelier n'est plus générée automatiquement avec chaque PDF de devis ; une option dans Paramètres → Fonctionnalités la réactive, et le bouton « Fiche atelier » de la fenêtre Documents reste là pour la produire à la demande",
+    "PDF du devis : la ligne Sujet reprend exactement ce qui est tapé dans la case Sujet — la taille et le nombre de sujets s'affichent sur leurs propres lignes, et le montage ne s'y glisse plus quand la case est vide",
+    "L'écran Prix suit désormais entièrement la bascule de thème clair/sombre, devis ouvert",
+    "La barre d'outils de l'écran Prix est regroupée en menus — mêmes actions, présentation plus compacte",
+    "Navigation au clavier : Alt+lettre soulignée focalise directement les champs du devis, et les contrôles portent des noms accessibles pour les lecteurs d'écran"
   ],
   "urls": {
     "linux_appimage": "https://github.com/chblitz62/LEtabli-releases/releases/latest/download/LEtabli_linux_x86_64.AppImage",
