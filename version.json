@@ -1,13 +1,11 @@
 {
-  "version": "1.8.1",
-  "date": "2026-08-14",
+  "version": "1.8.2",
+  "date": "2026-08-18",
   "changelog": [
-    "Devis : le champ Livraison ouvre un petit calendrier au clic — la saisie au clavier reste bien sûr possible",
-    "La fiche atelier n'est plus générée automatiquement avec chaque PDF de devis ; une option dans Paramètres → Fonctionnalités la réactive, et le bouton « Fiche atelier » de la fenêtre Documents reste là pour la produire à la demande",
-    "PDF du devis : la ligne Sujet reprend exactement ce qui est tapé dans la case Sujet — la taille et le nombre de sujets s'affichent sur leurs propres lignes, et le montage ne s'y glisse plus quand la case est vide",
-    "L'écran Prix suit désormais entièrement la bascule de thème clair/sombre, devis ouvert",
-    "La barre d'outils de l'écran Prix est regroupée en menus — mêmes actions, présentation plus compacte",
-    "Navigation au clavier : Alt+lettre soulignée focalise directement les champs du devis, et les contrôles portent des noms accessibles pour les lecteurs d'écran"
+    "Devis : le calendrier du champ Livraison s'ouvre désormais vraiment — sa flèche était invisible et impossible à cliquer, ce n'était donc pas un anti-popup (merci du signalement !)",
+    "PDF du devis : le Sujet, sa taille, le nombre de sujets, la cote à vue et la mention conservation apparaissent maintenant aussi sur les PDF lancés depuis l'éditeur de devis (aperçu, export, impression, e-mail) — ils ne figuraient que sur ceux générés depuis la liste des devis",
+    "« Imprimer devis + atelier » : la fiche atelier retrouve le sujet, sa taille et la date de livraison",
+    "Les petites flèches des champs de date reprennent le style des listes déroulantes de l'application"
   ],
   "urls": {
     "linux_appimage": "https://github.com/chblitz62/LEtabli-releases/releases/latest/download/LEtabli_linux_x86_64.AppImage",
