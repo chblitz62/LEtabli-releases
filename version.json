@@ -1,11 +1,10 @@
 {
-  "version": "1.8.2",
+  "version": "1.8.3",
   "date": "2026-08-18",
   "changelog": [
-    "Devis : le calendrier du champ Livraison s'ouvre désormais vraiment — sa flèche était invisible et impossible à cliquer, ce n'était donc pas un anti-popup (merci du signalement !)",
-    "PDF du devis : le Sujet, sa taille, le nombre de sujets, la cote à vue et la mention conservation apparaissent maintenant aussi sur les PDF lancés depuis l'éditeur de devis (aperçu, export, impression, e-mail) — ils ne figuraient que sur ceux générés depuis la liste des devis",
-    "« Imprimer devis + atelier » : la fiche atelier retrouve le sujet, sa taille et la date de livraison",
-    "Les petites flèches des champs de date reprennent le style des listes déroulantes de l'application"
+    "La prévisualisation du devis affichait « Impossible de charger le PDF » alors que le document était bon : l'aperçu s'ouvre à nouveau normalement (défaut ancien du visualiseur, débusqué lors des tests du jour)",
+    "Devis : la date de rappel se cale au minimum sur la date du jour — plus de rappel programmable dans le passé ; les rappels déjà enregistrés ne sont pas modifiés",
+    "Le champ Rappel affiche « Aucun » quand aucun rappel n'est posé, au lieu d'un mystérieux « 01/01/2000 »"
   ],
   "urls": {
     "linux_appimage": "https://github.com/chblitz62/LEtabli-releases/releases/latest/download/LEtabli_linux_x86_64.AppImage",
