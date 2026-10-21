@@ -1,14 +1,8 @@
 {
-  "version": "1.9.0",
+  "version": "1.9.1",
   "date": "2026-10-21",
   "changelog": [
-    "« Devis » devient « Bon de commande » dans toute l'application : un seul document, les nouveaux numéros commencent par BDC (la numérotation continue, les anciens DEV restent valables) ; la mention « Devis gratuit - valable 60 jours » est conservée",
-    "Paiement en plusieurs fois : avec l'accord de la vendeuse, le bon de commande propose 2 ou 3 versements au total (acompte compris), le premier un mois après l'acompte ; dates modifiables à la main, tableau d'échéances repris sur le bon de commande et sur la facture",
-    "Acompte : un acompte seulement demandé s'affiche « Acompte demandé », et « Acompte versé » (avec le mode et la date) une fois réglé ; un discret rappel apparaît s'il est inférieur au tiers du total, sans jamais le bloquer",
-    "Les dimensions du cadre apparaissent enfin sur l'aperçu et les PDF du bon de commande",
-    "IBAN et BIC figurent systématiquement sur les bons de commande et les factures",
-    "Rappel du montant de TVA sous le total (HT + TVA), ou la mention de franchise / TVA sur marge selon le régime",
-    "QR code de virement : il demande désormais le reste dû (total moins acompte et règlements déjà reçus), et non plus le total"
+    "Facture : le numéro et la date du bon de commande d'origine sont rappelés sur le PDF (« Bon de commande : BDC… du … ») et dans la fenêtre de la facture ; la numérotation des factures reste continue, et la référence est conservée même si le bon de commande est supprimé ensuite"
   ],
   "urls": {
     "linux_appimage": "https://github.com/chblitz62/LEtabli-releases/releases/latest/download/LEtabli_linux_x86_64.AppImage",
