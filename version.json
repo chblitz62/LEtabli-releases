@@ -1,13 +1,10 @@
 {
-  "version": "1.9.2",
+  "version": "1.9.3",
   "date": "2026-10-21",
   "changelog": [
-    "Retour du devis, à la demande de la cliente : le document reste un « Devis » tant qu'aucun acompte n'est versé, et devient « Bon de commande » dès qu'un acompte est versé (le statut passe tout seul à l'enregistrement) ou que la commande est validée ; les nouveaux numéros reprennent DEV, les numéros BDC déjà créés restent valables",
-    "PDF du devis : le bas de page du modèle papier est rétabli, avec l'acompte demandé, le rappel de TVA, l'échéancier éventuel et « Devis gratuit - valable 60 jours » ; le bon de commande garde acompte versé / reste à régler et la signature",
-    "IBAN des devis et bons de commande dans la petite police du pied de page, sous la ligne « La Manufacture du Cadre - E.I. - SIRET »",
-    "Créer la facture : les trois boutons « Livrer → Facture » passent par l'assistant, qui parle d'« acompte », signale un acompte seulement demandé (jamais déduit) et recalcule l'échéancier en direct ; depuis l'éditeur, les modifications non enregistrées sont proposées à l'enregistrement d'abord",
-    "Fenêtre facture : l'échéance n'affiche plus « 01/01/2000 » (elle vaut la date d'émission + le délai de paiement), le rappel affiche « Aucun », l'acompte versé et l'échéancier sont visibles",
-    "Facture PDF : « Acompte versé le … (mode) », TVA contenue, reste à payer ; l'échéancier se place à côté des totaux et la facture tient sur une page avec l'IBAN dans le cas courant"
+    "Créer la facture : un bouton « Aperçu de la facture » dans l'assistant montre la facture exacte avant de la créer, sans rien enregistrer ni utiliser de numéro (« N° attribué à la validation ») ; un bouton « Aperçu » sur une facture brouillon",
+    "Une facture encore brouillon sort toujours avec le filigrane « APERÇU - NON VALIDE » (export, liste, e-mail) : seule une facture validée a valeur de facture",
+    "À propos : le Konami Code fonctionne de nouveau"
   ],
   "urls": {
     "linux_appimage": "https://github.com/chblitz62/LEtabli-releases/releases/latest/download/LEtabli_linux_x86_64.AppImage",
