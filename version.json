@@ -1,10 +1,12 @@
 {
-  "version": "1.9.3",
+  "version": "1.9.4",
   "date": "2026-10-21",
   "changelog": [
-    "Créer la facture : un bouton « Aperçu de la facture » dans l'assistant montre la facture exacte avant de la créer, sans rien enregistrer ni utiliser de numéro (« N° attribué à la validation ») ; un bouton « Aperçu » sur une facture brouillon",
-    "Une facture encore brouillon sort toujours avec le filigrane « APERÇU - NON VALIDE » (export, liste, e-mail) : seule une facture validée a valeur de facture",
-    "À propos : le Konami Code fonctionne de nouveau"
+    "Sauvegardes fiabilisées : la sauvegarde contient désormais toutes les dernières modifications (les sauvegardes faites logiciel ouvert pouvaient être incomplètes, voire vides). Faites une sauvegarde manuelle après cette mise à jour",
+    "Restauration plus sûre : la sauvegarde est vérifiée avant de remplacer la base actuelle, et l'ancien journal de la base n'est plus laissé à côté",
+    "Avoirs : nouvelle fenêtre « Créer un avoir », total ou partiel (montant TTC), motif obligatoire, récapitulatif avant émission ; jamais plus que le montant de la facture, avoirs déjà émis déduits ; possible sur une facture partiellement payée",
+    "L'avoir rappelle « Avoir sur facture FAC… du … » et son motif sur le PDF, sans pénalités de retard ; le reste à payer de la facture d'origine déduit les avoirs partout (fenêtre, listes, relances, tableau de bord)",
+    "Export FEC pour le comptable corrigé : les avoirs sont équilibrés (ventes et TVA contre-passées), la TVA de l'acompte n'est plus comptée deux fois, et l'acompte est comptabilisé aussi sans TVA. Refaites les FEC déjà envoyés s'ils contenaient des avoirs ou des acomptes"
   ],
   "urls": {
     "linux_appimage": "https://github.com/chblitz62/LEtabli-releases/releases/latest/download/LEtabli_linux_x86_64.AppImage",
