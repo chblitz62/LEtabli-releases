@@ -1,16 +1,15 @@
 {
-  "version": "1.9.5",
-  "date": "2026-10-21",
+  "version": "1.9.6",
+  "date": "2026-10-22",
   "changelog": [
-    "Fiscalité URSSAF : l'écran ne plante plus dès qu'une facture a été réglée",
-    "Paiements en plusieurs fois : chaque versement est enregistré avec sa date et visible dans la fenêtre de la facture ; TVA par mois, URSSAF et export comptable rangent chaque versement dans son mois",
-    "Avoir sur une facture déjà payée : la fenêtre propose « Rembourser X € au client » ; la TVA n'est corrigée que pour ce qui est réellement remboursé (un avoir sur une facture impayée ne change plus la TVA)",
-    "Acompte versé avant la facture : il compte dans la TVA et l'URSSAF du mois où il est encaissé",
-    "Numérotation des factures : un brouillon ne prend plus de numéro, le numéro est attribué à la validation (plus de trou quand on supprime un brouillon) ; une facture validée prend la date du jour",
-    "Contrôle d'intégrité des factures validées au démarrage et dans Documents : alerte si une facture validée a été modifiée",
-    "Factures d'achat : l'échéance n'est plus « 01/01/2000 » quand on ne la saisit pas (date de facture + 30 jours)",
-    "Sauvegardes : en plus des 5 dernières, une par mois sur un an et une par an sont conservées",
-    "Mises à jour suivantes vérifiées avant installation (fichier complet, empreinte), l'ancienne version est gardée en secours"
+    "Ouverture des PDF et des dossiers réparée avec l'AppImage (Fedora, LMDE) : le lecteur PDF ne démarrait pas",
+    "Petits écrans : une fenêtre trop haute défile, l'en-tête et les boutons restent visibles",
+    "Présentation harmonisée : bandeaux uniques et plus compacts, couleurs accordées au brun, boutons, flèches des champs et boîtes de message au style de l'application",
+    "Texte un peu plus grand, accents et français corrigés, montants au format français (1 234,56 €)",
+    "Devis : ouvrir un nouveau devis ne consomme plus de numéro, et un devis rouvert garde son numéro sur le PDF (il pouvait sortir sous un autre numéro : vérifiez les PDF de devis rouverts déjà envoyés)",
+    "Synthèse comptable : l'écran s'ouvre de nouveau (il plantait dès qu'une facture existait), présentation revue",
+    "Tableau de bord : chiffre d'affaires, répartition matériaux / main d'œuvre, trimestres et top 10 clients calculés à partir des factures (ils restaient à 0), indicateurs rangés pour petit écran",
+    "Fenêtre reconnue par le bureau : bonne icône dans la barre des tâches"
   ],
   "urls": {
     "linux_appimage": "https://github.com/chblitz62/LEtabli-releases/releases/latest/download/LEtabli_linux_x86_64.AppImage",
@@ -19,6 +18,6 @@
   },
   "oeuvre": "Un dimanche après-midi à l'île de la Grande Jatte (Georges Seurat, 1884)",
   "sha256": {
-    "linux_appimage": "c44bf8619a5452166a7fa08ac2db204bcff9f1f6250630525a13ca5d35eda646"
+    "linux_appimage": "70a8a7adb749b0697a13685f26a3a916df13fac314a5fabbc907fa116de1d8a3"
   }
 }
